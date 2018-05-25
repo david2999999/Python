@@ -23,6 +23,6 @@ def main():
     # would be appropriate. If you don ’ t assign the popped value or otherwise use it, it will be discarded
     # from the list.
 
-    
+
 if __name__ == "__main__":
     main()
