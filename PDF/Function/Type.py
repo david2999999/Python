@@ -15,16 +15,40 @@ def main():
         else:
             print("I don't think I can make this kind of Omelet: %s" % omelet_type)
 
-    def make_food(omelet_type, food):
-        print(str(omelet_type) + food)
+    # currently incomplete function
+    def make_food(ingredients_needed, food_name):
+        """make_food() takes ingredients from ingredients_needed and make food_name"""
+        for ingredient in ingredients_needed.keys():
+            print("Adding %d of %s to make a %s" % (ingredients_needed[ingredient], ingredient, food_name))
+            print("Made %s " % food_name)
+            return food_name
 
-    def get_omelet_ingredients(omelet, food):
-        return omelet[food]
+    def get_omelet_ingredients(omelet_name):
+        """This contains a dictionary of omelet names that can be produced, and their ingredients"""
+        # All of our omelet needs eggs and milk
+        ingredients = {"eggs" : 2, "milk": 1}
+        if omelet_name == "cheese":
+            ingredients["cheddar"] = 2
+        elif omelet_name == "western":
+            ingredients["jack_cheese"] = 2
+            ingredients["ham"] = 2
+            ingredients["pepper"] = 1
+            ingredients["onion"] = 1
+        elif omelet_name == "greek":
+            ingredients["feta_cheese"] = 2
+            ingredients["spinach"] = 2
+        else:
+            print("That's not on the menu sorry")
+            return None
+
+        return ingredients
+
+
+
 
 if __name__ == "__main__":
     main()
 
-    # By itself, this definition of make_omelet won ’ t work because it relies on a few functions that you
-    # haven ’ t written yet. You will sometimes do this as you program — create names for functions that need
-    # to be written later. You ’ ll see these functions later in this chapter, at which point this code will become
-    # fully usable.
+    # Functions declared within the top level, or global scope, can be used from within other functions and
+    # from within the functions inside of other functions. The names in the global scope can be used from
+    # everywhere, because the most useful functions need to be available for use within other functions.
