@@ -15,7 +15,6 @@ def main():
         else:
             print("I don't think I can make this kind of Omelet: %s" % omelet_type)
 
-    # currently incomplete function
     def make_food(ingredients_needed, food_name):
         """make_food() takes ingredients from ingredients_needed and make food_name"""
         for ingredient in ingredients_needed.keys():
@@ -44,7 +43,11 @@ def main():
         return ingredients
 
 
+    omelet_type = make_omelet("cheese")
+    print(omelet_type)
 
+    omelet_type = make_omelet({"eggs": 2, "jack_cheese": 2, "milk": 1, "mushrooms": 2})
+    print(omelet_type)
 
 if __name__ == "__main__":
     main()
