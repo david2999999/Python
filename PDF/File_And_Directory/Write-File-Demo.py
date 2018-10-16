@@ -13,5 +13,10 @@ def make_another_file():
         f = open('text.txt', "w")
         f.write("This is how you create a new text file")
 
+def add_some_text():
+    a = open('test.txt', "a")
+    a.write("Additional text appended")
+
 make_text_file()
 make_another_file()
+add_some_text()
