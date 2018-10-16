@@ -2,7 +2,7 @@ import os
 
 def make_text_file():
     a = open('test.txt', "w")
-    a.write("This is used to create a new text file")
+    a.write("This is used to create\n a new text file\n random text here \n more text")
     a.close()
 
 
