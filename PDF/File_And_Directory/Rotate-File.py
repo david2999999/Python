@@ -17,3 +17,10 @@ def rotate(path, version=0):
         rotate(path, version + 1)
 
     shutil.move(old_path, new_path)
+
+def rotate_log_file(path):
+    if not os.path.exists(path):
+        new_file = open(path, "w")
+        del new_file
+
+    rotate(path)
