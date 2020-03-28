@@ -1,0 +1,6 @@
+Variable Assignment
+    - Rules for variable naming
+        - Best Practice (PEP 8) that names are lowercase
+        - Avoid using words that have special meaning in Python like 'list' and 'str'
+    - Dynamic Typing
+        - You can reassign variables to different data types
