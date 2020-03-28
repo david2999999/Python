@@ -12,3 +12,12 @@
             # start is the numerical index for the slice start
             # stop is the index you will go up to (but not include)
             # step is the size of the "jump" you take
+
+# print('hello')
+# print("World")
+# print("I'm going on a run")
+
+print('hello \nworld')
+print('hello \tworld')
+
+print(len('Hello world'))
