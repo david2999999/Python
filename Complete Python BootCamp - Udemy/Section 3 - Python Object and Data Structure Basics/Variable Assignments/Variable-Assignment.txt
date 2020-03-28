@@ -4,3 +4,9 @@ Variable Assignment
         - Avoid using words that have special meaning in Python like 'list' and 'str'
     - Dynamic Typing
         - You can reassign variables to different data types
+        - Pros
+            - Very easy to work with
+            - Faster development time
+        - Cons
+            - May result in bugs for unexpected data types
+            - Need to be aware of type()
