@@ -1,4 +1,0 @@
-This is used to create
- a new text file
- random text here 
- more textAdditional text appended
