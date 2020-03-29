@@ -17,3 +17,10 @@ print(hello_world)
 letter = 'z'
 print(letter * 10)
 
+x = "Hello World"
+print(x.upper())
+print(x.lower())
+print(x.split()) # splits default on white space
+
+x = 'this is a string'
+print(x.split('i'))
