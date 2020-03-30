@@ -3,3 +3,6 @@ Tuples
         - But has one key difference - immutability
     - Once an element is inside a tuple, it can not be reassigned
     - Uses parenthesis: (1, 2, 3)
+
+    - When you pass around objects in your program, you want to make sure they do not get changed
+    - Data integrity
