@@ -8,9 +8,17 @@ Strings
 
 List
     - Ordered Sequence of Objects (Mutable)
+    - Can be created with brackets[]
+    - Basically an array in other programming languages
 
 Tuples
     - Ordered Sequence of Objects (Immutable)
+    - Can be created using parenthesis
 
 Dictionary
     - Key-Value pairing that is unordered
+    - Can be created with curly braces {}
+
+Set
+    - Does not allow duplicate items
+    - Can be created with the set() function
