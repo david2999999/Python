@@ -1,0 +1,3 @@
+Sets
+    - Unordered collections of unique elements
+        - There can only be one representative of the same object
