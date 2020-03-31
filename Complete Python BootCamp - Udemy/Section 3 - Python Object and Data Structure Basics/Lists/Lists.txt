@@ -4,3 +4,6 @@ Lists
         - [1,2,3,4,5]
     - Lists support indexing and slicing
     - Can be nested and also have a variety of useful methods
+
+    - sorted() - function, which returns a new list that is sorted
+    - .sort() - method that sorts the list in place
