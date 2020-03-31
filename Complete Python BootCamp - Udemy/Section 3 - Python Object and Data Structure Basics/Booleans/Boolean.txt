@@ -1,0 +1,3 @@
+Booleans
+    - Operators that allow you to convey True or False statements
+    - Very important when we deal with control flow and logic
