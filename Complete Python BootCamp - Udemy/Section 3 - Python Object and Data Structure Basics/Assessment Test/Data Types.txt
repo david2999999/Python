@@ -1,0 +1,16 @@
+Numbers
+    - Store numerical information and come in two forms
+        - Integers - Whole Numbers
+        - Floating point - Numbers with a Decimal
+
+Strings
+    - Ordered Sequence of Characters
+
+List
+    - Ordered Sequence of Objects (Mutable)
+
+Tuples
+    - Ordered Sequence of Objects (Immutable)
+
+Dictionary
+    - Key-Value pairing that is unordered
