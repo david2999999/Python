@@ -1,0 +1,26 @@
+Control Flow
+    - We often only want certain code to execute when a particular condition has been met
+        - Example:
+            - If my dog is hungry (condition), then I will feed the dog (some action)
+    - To control the flow of logic, we use some key words
+        - if, elif, else
+    - Control flow syntax makes use of colons and indentation
+        - This identation is what set apart python from other programming languages
+
+Syntax of an 'if' statement
+    if some_condition:
+        # Execute some code
+
+Syntax of an if/else statement
+    if some_condition:
+        # Execute some code
+    else:
+        # do something else
+
+Syntax of checking multiple conditions
+    if some_condition:
+        # Execute some code
+    elif some_other_condition:
+        # Do something different
+    else:
+        # Do something else
