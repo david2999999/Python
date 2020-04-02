@@ -1,0 +1,13 @@
+Iterable
+    - Many objects are 'iterable' meaning we can iterate over every element in the object
+        - Examples:
+            - Iterate every element in a list
+            - Iterate every character in a string
+            - Iterate over every key in a dictionary
+
+    - We can use 'for' loops to execute a block of code for every iteration
+
+Syntax of a 'for' loop:
+    my_iterable = [1, 2, 3]
+    for item_name in my_iterable:
+        print(item_name)
