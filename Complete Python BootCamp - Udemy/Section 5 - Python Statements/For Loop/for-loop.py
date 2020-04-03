@@ -8,7 +8,7 @@ for num in my_list:
     else:
         print(f'Odd Number {num}')
 
-list_sum = 0;
+list_sum = 0
 for num in my_list:
     list_sum += num
 print(list_sum)

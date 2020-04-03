@@ -1,0 +1,14 @@
+While Loop
+    - Executes a block of code while some condition remains True
+        - While my pool is not full, keep filling the pool with water
+        - While my dogs are still hungry, keep feeding my dogs
+
+Syntax
+    while some_boolean_condition:
+        # do something
+
+    - you can combine with an else
+        while some_boolean_condition:
+            # do something
+        else:
+            # do something different
