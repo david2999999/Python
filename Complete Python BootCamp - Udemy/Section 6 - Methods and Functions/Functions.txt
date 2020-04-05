@@ -1,0 +1,14 @@
+Functions
+    - Creating clean repeatable code is a key part of becoming an effective programmer
+    - Functions allow us to create blocks of code that can be easily executed many times,
+      without needing to constantly rewrite the entire block of code
+
+Syntax
+    def name_of_function(name):
+        """
+        Docstring explains function
+        """
+        print("Hello " + name)
+
+    >> name_of_function("Jose")
+    >> Hello Jose
