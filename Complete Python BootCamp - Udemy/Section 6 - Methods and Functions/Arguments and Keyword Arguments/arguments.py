@@ -15,3 +15,17 @@ def my_func(*args):
         print(item)
 
 my_func(40, 60, 100, 1, 34)
+####################################################
+def my_func(**kwargs):
+    print(kwargs)
+    if 'fruit' in kwargs:
+        print('My fruit of choice is {}'.format(kwargs['fruit']))
+    else:
+        print("No such fruit here")
+
+my_func(fruit='apple', veggie='lettuce')
+####################################################
+def my_func(*args, **kwargs):
+    print('I would like {} {}'.format(args[0], kwargs['food']))
+
+my_func(10, 20, 30, fruit='orange', food='eggs', animal='dog')
