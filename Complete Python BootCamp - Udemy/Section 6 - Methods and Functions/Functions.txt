@@ -12,3 +12,15 @@ Syntax
 
     >> name_of_function("Jose")
     >> Hello Jose
+
+    - Typically we use the return keyword to send back the result of the function,
+      instead of just printing it out
+    - return allows us to assign the output of the function to a new variable
+
+Syntax
+    def add_function(num1, num2):
+        return num1 + num2
+
+    >> result = add_function(1, 2)
+    >> print(result)
+    >> 3
