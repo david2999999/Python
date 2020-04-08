@@ -1,9 +1,15 @@
-x = 25
+# GLOBAL
+name = 'This is a global string'
 
-def printer():
-    x = 50
-    return x
+def greet():
+    # ENCLOSING
+    name = 'Sammy'
 
-print(x)
-print(printer())
-print(x)
+    def hello():
+        # LOCAL
+        name = 'This is local string'
+        print('Hello ' + name)
+
+    hello()
+
+greet()
