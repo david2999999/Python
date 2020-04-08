@@ -1,0 +1,7 @@
+LEGB Rule
+    - Local - Names assigned in any way within a function (def or lambda), and not
+              declared global in that function
+    - Enclosing Function Locals - Names in the local scope of any and all enclosing functions
+              (def or lambda), from inner to outer
+    - Global (module) - Names assigned at the top-level of a module file, or declared global in a def within a file
+    - Built-in (Python) - Names preassigned in the built-in names module: open, range, SyntaxError
