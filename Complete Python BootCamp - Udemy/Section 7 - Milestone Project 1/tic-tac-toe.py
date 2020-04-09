@@ -8,4 +8,15 @@ def display_board(board):
     print('-|-|-')
     print(board[1] + '|' + board[2] + '|' + board[3])
 
-display_board(['#', 'X', 'O', 'X', 'O', 'X', 'O', 'X', 'O', 'X'])
+def player_input():
+    marker = ''
+
+    while marker != 'X' and marker != 'O':
+        marker = input('Player 1, choose X or O: ')
+
+    player1 = marker
+    player2 = 'X' if player1 == 'O' else 'O'
+
+    return player1, player2
+
+player1_marker, player2_marker = player_input()
