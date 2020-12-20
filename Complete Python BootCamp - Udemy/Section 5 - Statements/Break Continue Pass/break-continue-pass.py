@@ -9,10 +9,14 @@ for letter in my_string:
         continue
     print(letter)
 
+print("======")
+
 for letter in my_string:
     if letter == 'a':
         break
     print(letter)
+
+print("======")
 
 x = 0
 while x < 5:

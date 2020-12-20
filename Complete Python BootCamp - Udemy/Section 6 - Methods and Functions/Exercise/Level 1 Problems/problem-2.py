@@ -8,3 +8,4 @@ def master_yoda(text):
     return ' '.join(reverse_word_list)
 
 print(master_yoda('I am home'))
+print(master_yoda('We are ready'))

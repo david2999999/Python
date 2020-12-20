@@ -10,7 +10,7 @@ print(my_string[:3]) # Hel
 print(my_string[3:6]) # lo
 
 print(my_string[::3]) # HlWl
-print(my_string[2:7:2]) # HlWl
+print(my_string[2:7:2]) # loW
 
 # Reversing a string in python
-print(my_string[::-1])
+print(my_string[::-1]) # dlroW olleH
